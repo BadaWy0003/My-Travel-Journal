@@ -3,6 +3,7 @@
 }
 
 body{
+
     display: flex;
     justify-content: center;
     font-family: 'Inter', sans-serif;
@@ -11,13 +12,15 @@ body{
 }
 
 .page{
+
     padding: 0;
-    max-width: 100%;
-    min-width: 0;    
+    min-width: 70vh;
+    max-height: 100vh;
+      
 }
 
 header{
-    height: 55px;
+    height: 3.4375rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,51 +31,54 @@ header{
 }
 
 header > img{
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     
 }
 
 header > h4{
     font-weight: 500;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: white;
-    padding: 0 7px;
+    padding: 0 0.4375rem;
 }
 .card-big{
-    margin-top: 0px;
-    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding: 0;
     /*border: solid;*/
 }
 .card{
     /*border: solid red 5px;*/
     display: flex;
+    justify-content: center;
     padding: 0;
     margin: 0;
-
+    min-width: 1000px;
 }
 
 .card > img{
-    height: 168px;
-    width: 125px;
-    border-radius: 5px;
-    margin: 45px 20px 18px 40px;
+    height: 10.5rem;
+    width: 7.8125rem;
+    border-radius: 0.3125rem;
+    margin: 2.8125rem 1.25rem 1.125rem 2.5rem;
 }
 
 .location{
-    margin-top: 64px;
+    margin-top: 4rem;
     margin-bottom: 0;
         
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-right: 197px;
+    padding-right: 12.3125rem;
     font-weight: 400;
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 
 .location > img{
-    width: 7px;
+    width: 0.4375rem;
     height: 10px;
 }
 
